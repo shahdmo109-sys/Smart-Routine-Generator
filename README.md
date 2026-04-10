@@ -16,3 +16,17 @@ reference.
 (`routine.txt`), so your data isn't lost when the app closes.
  Real-time Interaction: Add tasks instantly and clear your history with a single click.
  Input Validation:** Ensures no empty tasks are added to your schedule.
+
+ ## 👥️Team Members
+ ●
+ ●
+ ●Dana Ahmed Kharboush { 24040834 }
+ ●
+ 
+## 🛠 Technologies Used
+ Language: Python 3.
+ GUI Framework: Tkinter
+ Storage: File Handling (TXT)
+ Version Control: GitHub
+
+ 
