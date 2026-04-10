@@ -43,3 +43,5 @@ reference.
  ```bash
  python main.py
  ```
+
+## Screenshots
