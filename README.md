@@ -29,3 +29,17 @@ reference.
  Version Control: GitHub
 
  
+## How to Run the App
+1. **Clone the repository:**
+ ```bash
+ git clone [https://github.com/shahdmo109-sys/Smart-Routine-Generator]
+ ```
+2. **Navigate to the project directory:**
+
+```bash
+ cd Smart-Routine-Generator
+ ```
+3. **Run the application:**
+ ```bash
+ python main.py
+ ```
