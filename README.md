@@ -1,0 +1,18 @@
+# Smart Routine Generator 
+🚀
+A specialized productivity tool for engineering students to manage their daily tasks efficiently.
+📌
+## Project Overview
+The **Smart Routine Generator** is a Python-
+based desktop application developed as part of the **Programming Fundamentals (Level 100)** 
+course at Mansoura National University. 
+The application provides a user-friendly Graphical User Interface (GUI) to help students organize 
+their academic and personal tasks, set time slots, and ensure their schedule is saved for future 
+reference.
+✨
+ ## Key Features
+ User-Friendly GUI: Built using Python's `Tkinter` library.
+ Data Persistence: Uses **File Handling** to save and load your routine from a text file 
+(`routine.txt`), so your data isn't lost when the app closes.
+ Real-time Interaction: Add tasks instantly and clear your history with a single click.
+ Input Validation:** Ensures no empty tasks are added to your schedule.
