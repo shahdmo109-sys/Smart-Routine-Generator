@@ -18,10 +18,9 @@ reference.
  Input Validation:** Ensures no empty tasks are added to your schedule.
 
  ## 👥️Team Members
- ●
- ●
+ 
  ●Dana Ahmed Kharboush { 24040834 }
- ●
+ 
  
 ## 🛠 Technologies Used
  Language: Python 3.
