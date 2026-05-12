@@ -35,7 +35,7 @@ def add_task():
         time_entry.delete(0, tk.END)
     else:
         messagebox.showwarning("Warning", "Please fill in both fields!")
-
+# This block ensures that users are notified if inputs are missing
 # 4. وظيفة المسح
 def clear_list():
     if messagebox.askyesno("Confirm", "Delete all tasks and clear history?"):
@@ -45,7 +45,7 @@ def clear_list():
 # Creation of the graphical user interface components
 # 5. الواجهة
 tk.Label(root, text="Smart Routine Pro", font=("Arial", 18, "bold"), bg="#f0f0f0", fg="#333").pack(pady=10)
-
+# Starting the layout for the application labels and input boxes
 tk.Label(root, text="Task:", bg="#f0f0f0").pack()
 task_entry = tk.Entry(root, width=35, font=("Arial", 12))
 task_entry.pack(pady=5)
