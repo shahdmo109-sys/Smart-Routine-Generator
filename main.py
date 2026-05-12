@@ -54,7 +54,7 @@ tk.Label(root, text="Time (e.g. 09:00 AM):", bg="#f0f0f0").pack()
 time_entry = tk.Entry(root, width=35, font=("Arial", 12))
 time_entry.pack(pady=5)
 
-add_button = tk.Button(root, text="Add & Save Task", command=add_task, bg="#3498db", fg="blue", font=("Arial", 10, "bold"), width=20)
+add_button = tk.Button(root, text="Add & Save Task", command=add_task, bg="#2ecc71", fg="white", font=("Arial", 10, "bold"), width=20)
 add_button.pack(pady=15)
 
 tk.Label(root, text="Saved Daily Schedule:", bg="#f0f0f0", font=("Arial", 10, "italic")).pack()
