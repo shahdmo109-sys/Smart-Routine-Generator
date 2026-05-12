@@ -1,3 +1,4 @@
+# Smart Routine Generator Project
 import tkinter as tk
 from tkinter import messagebox
 import os
@@ -65,3 +66,4 @@ clear_button.pack(pady=10)
 
 load_tasks()
 root.mainloop()
+# End of Application
