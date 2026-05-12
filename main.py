@@ -2,14 +2,14 @@
 import tkinter as tk
 from tkinter import messagebox
 import os
-
+# This section defines the global variables for file handling
 # 1. وظائف التعامل مع الملفات
 FILE_NAME = "routine.txt"
 
 def save_to_file(task_text):
     with open(FILE_NAME, "a", encoding="utf-8") as file:
         file.write(task_text + "\n")
-
+# Logic to verify file existence and populate the listbox
 def load_tasks():
     if os.path.exists(FILE_NAME):
         with open(FILE_NAME, "r", encoding="utf-8") as file:
@@ -21,7 +21,7 @@ root = tk.Tk()
 root.title("Smart Routine Generator Pro")
 root.geometry("400x550")
 root.configure(bg="#f0f0f0")
-
+# Configuration of the main application window and theme
 # 3. وظيفة الإضافة
 def add_task():
     task = task_entry.get()                 
@@ -42,7 +42,7 @@ def clear_list():
         routine_list.delete(0, tk.END)
         if os.path.exists(FILE_NAME):
             os.remove(FILE_NAME)
-
+# Creation of the graphical user interface components
 # 5. الواجهة
 tk.Label(root, text="Smart Routine Pro", font=("Arial", 18, "bold"), bg="#f0f0f0", fg="#333").pack(pady=10)
 
